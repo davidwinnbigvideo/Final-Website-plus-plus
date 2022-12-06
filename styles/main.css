@@ -534,21 +534,11 @@ html {
   justify-content: center;
 }
 
-.scroll-h > *:nth-child(5n + 1) {
-  background-color: blue;
+.scroll-h > *:nth-child(2n + 1) {
+  background-color: var(--dark-taupe);
 }
-.scroll-h > *:nth-child(5n + 2) {
-  background-color: red;
-}
-.scroll-h > *:nth-child(5n + 3) {
-  background-color: lime;
-}
-.scroll-h > *:nth-child(5n + 4) {
-  background-color: purple;
-}
-.scroll-h > *:nth-child(5n + 5) {
-  color: lime;
-  background-color: pink;
+.scroll-h > *:nth-child(2n + 2) {
+  background-color: var(--khaki-light-fawn);
 }
 
 .info svg {
